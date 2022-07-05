@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  max-width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+header .nav {
+  display: -ms-grid;
+  display: grid;
+  max-width: 100%;
+  -ms-grid-columns: 1fr 4fr 1fr;
+      grid-template-columns: 1fr 4fr 1fr;
+  height: 20vh;
+  border: 2px red solid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .nav .logo {
+  border: 2px solid black;
+}
+
+header .nav .navbar1 {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  border: 2px solid green;
+}
+
+header .nav .navbar1 ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  text-align: center;
+}
+
+header .nav .navbar1 ul a {
+  text-decoration: none;
+}
+
+header .nav .navbar2 {
+  display: -ms-grid;
+  display: grid;
+  border: 2px solid blue;
+}
+
+header .nav .navbar2 ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  text-align: center;
+}
+
+header .nav .navbar2 ul a {
+  text-decoration: none;
+}
+
+header .presentation {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  border: 2px solid orange;
+  height: 80vh;
+}
+
+header .redes {
+  display: block;
+  position: fixed;
+  width: 100px;
+  text-align: center;
+  top: 50vh;
+  right: 50px;
+  border: 1px solid cyan;
+}
+
+header .redes ul {
+  list-style: none;
+}
+/*# sourceMappingURL=styles.css.map */
