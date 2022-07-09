@@ -8,6 +8,11 @@
     <title>Rifas nuevas</title>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -51,56 +56,87 @@
         </div>
     </header>
     <main>
-        <a href="#">Catalogue<i class='bx bx-right-arrow-circle'></i></a>
+        <a href="#" class="catalogue-button">Catalogue<i class='bx bx-right-arrow-circle'></i></a>
         <h2>Additional services</h2>
-        <section class="cards">
-            <div class="card">
-                <div class="icon-container">
-                    <i class='bx bx-car'></i>
+        <div class="container">
+            <div class="card__container">
+                <div class="card">
+                    <div class="card__content">
+                        <h3 class="card__header">Card 1</h3>
+                        <p class="card__info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="card__button">Read now</button>
+                    </div>
                 </div>
-                <h3>Evacuator service</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur <br>
-                    adipisicing elit. Cum excepturi, ipsa <br>
-                    adipisci laudantium incidunt dignissimos <br>
-                    recusandae reiciendis
+                <div class="card">
+                    <div class="card__content">
+                        <h3 class="card__header">Card 2</h3>
+                        <p class="card__info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="card__button">Read now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__content">
+                        <h3 class="card__header">Card 3</h3>
+                        <p class="card__info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="card__button">Read now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <article class="other-information">
+            <div class="content">
+                <h2>Automobiles fron Americas <br>
+                    largest Auctions!
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing <br>
+                    elit. Nesciunt repellendus
                 </p>
             </div>
-            <div class="card">
-                <div class="icon-container">
-                    <i class='bx bx-user'></i>
-                </div>
-                <h3>Evacuator service</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur <br>
-                    adipisicing elit. Cum excepturi, ipsa <br>
-                    adipisci laudantium incidunt dignissimos <br>
-                    recusandae reiciendis
-                </p>
-            </div>
-            <div class="card">
-                <div class="icon-container">
-                    <i class='bx bx-bolt-circle'></i>
-                </div>
-                <h3>Evacuator service</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur <br>
-                    adipisicing elit. Cum excepturi, ipsa <br>
-                    adipisci laudantium incidunt dignissimos <br>
-                    recusandae reiciendis
-                </p>
-            </div>
-        </section>
-        <article class="other-informatio">
-            <h2>Automobiles fron Americas <br>
-                largest Auctions!
-            </h2>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing <br>
-                 elit. Nesciunt repellendus
-            </p>
             <img src="img/ferrari.jpg" alt="">
         </article>
     </main>
     <footer>
 
+        <div class="main-footer">
+            <div class="columns">
+                <div class="column1">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Register as dealer</a></li>
+                        <li><a href="#">Find container</a></li>
+                        <li><a href="#">Private cabinet</a></li>
+                    </ul>
+                </div>
+                <div class="column2">
+                    <h4>Our services</h4>
+                    <ul>
+                        <li><a href="#">Consultation</a></li>
+                        <li><a href="#">Get funding</a></li>
+                        <li><a href="#">Transportation</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="info-nova">
+                    <h3>Info de NOVA CODE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Facilis fuga perspiciatis eum iste iure eos, quibusdam <br>
+                        deserunt sit aperiam ad consequatur amet tenetur aut error <br>
+                        ut dicta doloremque, natuatione iusto earum inventore <br>
+                        consequuntur eius veritatis. Nemo sit magni velit.
+                    </p>
+                    <div class="logo-nova">
+                        <img src="img/NovaCode Logo.png" alt="NovaCodeLogo">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="copy">
+            &copy; NovaCode
+        </div>
     </footer>
 </body>
 
